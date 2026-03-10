@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BikeMe.Now | Biker Platform </title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="header">
+    <div class="container nav">
+        <div class="logo">BikeMe.<span>World</span></div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#bikes">Bikes</a>
+            <a href="#stories">Stories</a>
+            <a href="#events">Events</a>
+            <a href="#community">Community</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <p class="eyebrow">Powered by the BikeMe.Now vision</p>
+                <h1>The digital home for bikers - discover bikes, learn, connect, and ride together.</h1>
+                <p class="hero-text">
+                    Discover new motorcycles, explore iconic bike stories, learn about maintenance basics, components
+                    and accessories, and connect with the riding community through events and shared passion.
+                </p>
+                <div class="btn-row">
+                    <a class="btn btn-primary" href="#bikes">Explore Bikes</a>
+                    <a class="btn btn-secondary" href="#community">Share an Event</a>
+                </div>
+            </div>
+
+            <div class="hero-panel">
+                <div class="panel-card">
+                    <span class="tag">Inside the Platform</span>
+                    <h3>Everything riders need in one connected platform</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h4>Motorcycle Discovery</h4>
+                            <p>Explore new motorcycles, compare riding categories, and stay updated on models, features, and market trends.</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>Stories & Heritage</h4>
+                            <p>Discover the history behind legendary motorcycles, iconic brands, and the culture that shaped the riding world.</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>Learning & Knowledge</h4>
+                            <p>Learn about bike components, accessories, maintenance basics, and practical insights for both new and experienced riders.</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>Events & Community</h4>
+                            <p>Find gatherings, launches, exhibitions, and rider meetups while connecting with people who share the same passion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section section-dark">
+        <div class="container">
+            <div class="feature-intro">
+                <span class="section-kicker">Why BikeMe.World</span>
+                <h2>Built for the culture, not just the catalogue</h2>
+                <p>
+                    BikeMe.World brings motorcycle discovery, rider knowledge, and community energy
+                    into one focused digital platform - designed to feel modern, useful, and worth returning to.
+                </p>
+            </div>
+
+            <div class="feature-highlight-grid">
+                <article class="feature-panel-card">
+                    <span class="feature-mini-tag">Discovery</span>
+                    <h3>Relevant motorcycles, not endless noise</h3>
+                    <p>
+                        Explore motorcycles through a structured experience that helps riders discover
+                        models, segments, and trends without getting lost in clutter.
+                    </p>
+                </article>
+
+                <article class="feature-panel-card">
+                    <span class="feature-mini-tag">Knowledge</span>
+                    <h3>Built to inform and inspire</h3>
+                    <p>
+                        From stories and heritage to components, gear, and maintenance basics, the
+                        platform is designed to deepen rider understanding as well as interest.
+                    </p>
+                </article>
+
+                <article class="feature-panel-card">
+                    <span class="feature-mini-tag">Community</span>
+                    <h3>A platform that grows with its riders</h3>
+                    <p>
+                        Events, meetups, launches, and future community features turn BikeMe.World
+                        into more than a website - it becomes part of the wider BikeMe ecosystem.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="bikes" class="section">
+        <div class="container">
+            <div class="section-box">
+                <div class="section-heading">
+                    <h2>Explore Bikes</h2>
+                    <p>Search motorcycles by name and filter by type.</p>
+                </div>
+
+                <div class="toolbar">
+                    <div class="field-wrap grow">
+                        <input type="text" id="searchInput" placeholder="Search bike name..." />
+                    </div>
+                    <div class="field-wrap">
+                        <select id="categoryFilter">
+                            <option value="all">All categories</option>
+                            <option value="sport">Sport</option>
+                            <option value="adventure">Adventure</option>
+                            <option value="cruiser">Cruiser</option>
+                            <option value="classic">Classic</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="bikeList" class="list-grid"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stories" class="section">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Classic Bike Stories</h2>
+                <p>Introduce history, legacy, and iconic moments from motorcycle culture.</p>
+            </div>
+
+            <div id="storyList" class="card-grid three"></div>
+        </div>
+    </section>
+
+    <section class="section learning-section">
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Rider Knowledge Hub</h2>
+                <p>
+                    Learn the fundamentals of motorcycles, understand essential gear,
+                    and build the knowledge every rider should have.
+                </p>
+            </div>
+
+            <div class="card-grid three">
+
+                <article class="card learning-card">
+                    <div class="learning-icon">⚙</div>
+                    <h3>Engine Fundamentals</h3>
+                    <p>
+                        Understand engine displacement, torque delivery, and how
+                        different motorcycle engines shape the riding experience.
+                    </p>
+                    <a href="#" class="learn-link">Learn more →</a>
+                </article>
+
+                <article class="card learning-card">
+                    <div class="learning-icon">🧤</div>
+                    <h3>Riding Gear & Accessories</h3>
+                    <p>
+                        Explore helmets, gloves, jackets, luggage systems, and the
+                        essential equipment that improves safety and comfort.
+                    </p>
+                    <a href="#" class="learn-link">Learn more →</a>
+                </article>
+
+                <article class="card learning-card">
+                    <div class="learning-icon">🔧</div>
+                    <h3>Maintenance Essentials</h3>
+                    <p>
+                        Learn the basics of tire checks, chain care, oil changes,
+                        and regular maintenance that keeps motorcycles performing well.
+                    </p>
+                    <a href="#" class="learn-link">Learn more →</a>
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="events" class="section">
+        <div class="container two-column">
+            <div class="section-box">
+                <div class="section-heading">
+                    <h2>Upcoming Events</h2>
+                    <p>Discover meetups, rides, exhibitions, and launch events.</p>
+                </div>
+                <div id="eventList" class="list-grid"></div>
+            </div>
+
+            <div id="community" class="section-box">
+                <div class="section-heading">
+                    <h2>Share an Event</h2>
+                    <p>Add a biker event for the community.</p>
+                </div>
+
+                <form id="eventForm" class="form-grid">
+                    <div>
+                        <label for="eventTitle">Event Title</label>
+                        <input id="eventTitle" type="text" required />
+                    </div>
+
+                    <div>
+                        <label for="eventDate">Date</label>
+                        <input id="eventDate" type="date" required />
+                    </div>
+
+                    <div>
+                        <label for="eventLocation">Location</label>
+                        <input id="eventLocation" type="text" required />
+                    </div>
+
+                    <div>
+                        <label for="eventType">Event Type</label>
+                        <select id="eventType" required>
+                            <option value="Ride">Ride</option>
+                            <option value="Exhibition">Exhibition</option>
+                            <option value="Launch">Launch</option>
+                            <option value="Meetup">Meetup</option>
+                        </select>
+                    </div>
+
+                    <div class="full-width">
+                        <label for="eventDesc">Description</label>
+                        <textarea id="eventDesc" rows="4" required></textarea>
+                    </div>
+
+                    <div class="full-width">
+                        <button class="btn btn-primary" type="submit">Add Event</button>
+                        <p id="formMessage" class="form-message"></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+            <h3>BikeMe.World</h3>
+            <p>
+                A digital platform for riders to discover motorcycles, explore stories,
+                learn essential knowledge, and connect with the global riding community.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Explore</h4>
+            <a href="#bikes">Bikes</a>
+            <a href="#stories">Stories</a>
+            <a href="#events">Events</a>
+            <a href="#community">Community</a>
+        </div>
+
+        <div class="footer-links">
+            <h4>Platform</h4>
+            <a href="#">About</a>
+            <a href="#">Knowledge Hub</a>
+            <a href="#">Rider Resources</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 BikeMe.World • Part of the BikeMe ecosystem</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
