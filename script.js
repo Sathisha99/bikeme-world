@@ -5,7 +5,7 @@ const bikes = [
         category: "sport",
         engine: "689cc",
         type: "Naked",
-        image: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=80",
+        image: "images/Yamaha MT-07 2026.jfif",
         description: "A lightweight naked bike known for agility, torque, and everyday fun."
     },
     {
@@ -14,7 +14,7 @@ const bikes = [
         category: "adventure",
         engine: "1084cc",
         type: "Adventure",
-        image: "https://images.unsplash.com/photo-1609630875171-b1321377ee65?auto=format&fit=crop&w=1200&q=80",
+        image: "images/Honda Africa Twin 2026.jpg",
         description: "A capable adventure bike designed for long-distance comfort and mixed terrain."
     },
     {
@@ -23,7 +23,7 @@ const bikes = [
         category: "classic",
         engine: "349cc",
         type: "Classic",
-        image: "https://images.unsplash.com/photo-1529429611270-8c8a2d1b0b97?auto=format&fit=crop&w=1200&q=80",
+        image: "images/Royal Enfield Classic 350.jpeg",
         description: "A retro-styled motorcycle with timeless design and relaxed riding character."
     },
     {
@@ -32,7 +32,7 @@ const bikes = [
         category: "cruiser",
         engine: "883cc",
         type: "Cruiser",
-        image: "https://images.unsplash.com/photo-1517846693594-1567da72af75?auto=format&fit=crop&w=1200&q=80",
+        image: "images/Harley-Davidson Iron 883.jfif",
         description: "A bold cruiser with minimalist styling and strong road presence."
     },
     {
@@ -41,7 +41,7 @@ const bikes = [
         category: "sport",
         engine: "636cc",
         type: "Supersport",
-        image: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=1200&q=80",
+        image: "images/Kawasaki Ninja ZX-6R.jpg",
         description: "A sharp supersport machine for riders who enjoy speed and precision."
     },
     {
@@ -50,7 +50,7 @@ const bikes = [
         category: "adventure",
         engine: "1254cc",
         type: "Touring Adventure",
-        image: "https://images.unsplash.com/photo-1580310614729-ccd69652491d?auto=format&fit=crop&w=1200&q=80",
+        image: "images/BMW R 1250 GS.jpg",
         description: "A premium adventure motorcycle built for versatility and touring."
     }
 ];
